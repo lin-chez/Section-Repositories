@@ -1,0 +1,82 @@
+html,body{
+ height: 100%;
+}
+
+*{
+ font-family: sans-serif;
+ padding: 0;
+ box-sizing: border-box;
+ margin: 0;
+}
+
+body{
+ display: grid;
+ background: #dee2f1;
+ text-align: center;
+ place-items: center;
+}
+
+#login-box{
+ width: 350px;
+ padding: 50px 45px;
+ background: #dee2f1;
+ border-radius: 11px;
+ box-shadow: -3px -4px 8px #ffaaff73,
+ 2px 2px 5px #9b9da3;
+}
+
+.input-fields{
+ height: 65px;
+ width: 100%;
+ position: relative;
+ margin-top: 60px;
+}
+
+.input-fields input{
+ height: 100%;
+ border: none;
+ font-size: 16px;
+ background: #dee2f1;
+ padding: 0px 10px;
+ color: #686869;
+ outline: none;
+ border-radius: 33px;
+ box-shadow: inset 3px 3px 4px #9b9da3,
+ inset -6px -6px 12px #ffaaff74;
+ width: 100%;
+}
+
+.input-fields input:focus{
+ box-shadow: inset 2px 2px 1px #9b9da3,
+ inset -2px -2px 1px #ffaaff73;
+}
+
+.input-fields label{
+ position: relative;
+ text-align: left;
+ pointer-events: none;
+ color: #666666;
+}
+
+button{
+ margin-top: 80px;
+ font-size: 20px;
+ line-height: 45px;
+ width: 100%;
+ font-weight: 700;
+ background: #dee2f1;
+ border-radius: 30px;
+ border: none;
+ height: 60px;
+ outline: none;
+ color: #686869;
+ box-shadow: 3px 3px 6px #9b9da3,
+ -6px -6px 12px #ffaaff73;
+ cursor: pointer;
+}
+
+button:focus{
+ color: #3688db;
+ box-shadow: inset 3px 3px 6px #9b9da3,
+ inset -6px -6px 12px #ffaaff73;
+}
