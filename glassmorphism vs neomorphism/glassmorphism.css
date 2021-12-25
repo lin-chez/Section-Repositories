@@ -1,0 +1,60 @@
+html,body{
+ height: 100%;
+}
+
+*{
+ font-family: sans-serif;
+ padding: 0;
+ box-sizing: border-box;
+ margin: 0;
+}
+body{
+ display: grid;
+ background: url(https://cdn.pixabay.com/photo/2021/06/29/06/14/water-drops-6373296__340.jpg);
+ background-size: cover;
+ text-align: center;
+ place-items: center;
+}
+#login-box{
+ width: 350px;
+ padding: 50px 45px;
+ background: rgba(246, 246, 246, .6);
+ backdrop-filter: blur(5px);
+ border-radius: 12px;
+ -webkit-backdrop-filter: blur(5px);
+}
+.input-fields{
+ height: 65px;
+ width: 100%;
+ position: relative;
+ margin-top: 60px;
+}
+.input-fields input{
+ width: 100%;
+ outline: none;
+ backdrop-filter: blur(5px);
+ border: none;
+ padding: 0px 10px;
+ font-size: 16px;
+ background: rgba(246, 246, 246, .6);
+ -webkit-backdrop-filter: blur(5px);
+ color: #686869;
+ border-radius: 30px;
+ height: 100%;
+}
+button{
+ margin-top: 80px;
+ height: 61px;
+ font-size: 21px;
+ line-height: 45px;
+ font-weight: 700;
+ background: rgba(246, 246, 246, .7);
+ backdrop-filter: blur(5px);
+ border:none;
+ border-radius:30px;
+ outline: none;
+ cursor: pointer;
+ color: #686869;
+ -webkit-backdrop-filter: blur(5px);
+ width: 100%;
+}
